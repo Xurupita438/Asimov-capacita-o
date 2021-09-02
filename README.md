@@ -9,85 +9,72 @@ These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
   
-   -clone            Clone a repository into a new directory
+   -clone ---------- Clone a repository into a new directory
   
-   -init              Create an empty Git repository or reinitialize an 
-   
-   -existing one
+   -init ---------- Create an empty Git repository or reinitialize an existing one
 
 work on the current change (see also: git help everyday)
    
-   -add               Add file contents to the index
+   -add  ---------- Add file contents to the index
    
-   -mv                Move or rename a file, a directory, or a symlink
+   -mv ---------- Move or rename a file, a directory, or a symlink
   
-   -restore           Restore working tree files
+   -restore ---------- Restore working tree files
   
-   -rm                Remove files from the working tree and from the 
-   
-   -index      
+   -rm ---------- Remove files from the working tree and from the index      
    
    -sparse-checkout   Initialize and modify the sparse-checkout
 
 examine the history and state (see also: git help revisions)
   
-   -bisect            Use binary search to find the commit that 
-   
-   -introduced a bug 
+   -bisect ---------- Use binary search to find the commit that introduced a bug 
   
-   -diff              Show changes between commits, commit and working 
+   -diff ---------- Show changes between commits, commit and working tree, etc 
   
-   -tree, etc 
+   -grep ---------- Print lines matching a pattern
   
-   -grep              Print lines matching a pattern
+   -log ---------- Show commit logs
   
-   -log               Show commit logs
+   -show ---------- Show various types of objects
   
-   -show              Show various types of objects
-  
-   -status            Show the working tree status
+   -status ---------- Show the working tree status
 
 grow, mark and tweak your common history
-   -branch            List, create, or delete branches
+
+   -branch ---------- List, create, or delete branches
    
-   -commit            Record changes to the repository
+   -commit ---------- Record changes to the repository
    
-   -merge             Join two or more development histories together
+   -merge ---------- Join two or more development histories together
   
-   -rebase            Reapply commits on top of another base tip
+   -rebase ---------- Reapply commits on top of another base tip
    
-   -reset             Reset current HEAD to the specified state
+   -reset ---------- Reset current HEAD to the specified state
    
-   -switch            Switch branches
+   -switch ---------- Switch branches
   
-   -tag               Create, list, delete or verify a tag objectmsigned with GPG
+   -tag ---------- Create, list, delete or verify a tag objectmsigned with GPG
 
 collaborate (see also: git help workflows)
   
-   -fetch             Download objects and refs from another repository
+   -fetch ---------- Download objects and refs from another repository
    
-   -pull              Fetch from and integrate with another repository or a local branch
+   -pull ---------- Fetch from and integrate with another repository or a local branch
   
-   -push              Update remote refs along with associated objects
-
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
-See 'git help <command>' to read about a specific subcommand
+   -push ---------- Update remote refs along with associated objects
 
 Main Porcelain Commands
    
-   -add                  Add file contents to the index
+   -add  ----------  Add file contents to the index
    
-   -am                   Apply a series of patches from a mailbox
+   -am ----------  Apply a series of patches from a mailbox
    
-   -archive              Create an archive of files from a named tree
+   -archive ---------- Create an archive of files from a named tree
    
-   -bisect               Use binary search to find the commit that introduced a bug
+   -bisect  ---------- Use binary search to find the commit that introduced a bug
    
-   -branch               List, create, or delete branches
+   -branch   ----------  List, create, or delete branches
    
-   -bundle               Move objects and refs by archive
+   -bundle ----------   Move objects and refs by archive
    
-   -checkout             Switch branches or restore working tree files
+   -checkout ---------- Switch branches or restore working tree files
