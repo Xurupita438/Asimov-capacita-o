@@ -236,10 +236,12 @@ hr {
     background-color: black;
     opacity: 0;
     padding-top: 120px;
+    transition: 0.5s;
 }
 
 .blackbox:hover {
     opacity: 0.8;
+    transition: 0.5s;
 }
 
 .blackbox-text {
