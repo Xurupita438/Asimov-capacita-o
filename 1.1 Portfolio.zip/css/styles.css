@@ -8,12 +8,15 @@ padding: 0px;
 body {
     background-color: #CAE8FF;
     color:black;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .navigation {
-    background-color: #12229D;
+    background-color: #050A30;
     color: white;
     height: 50px;
+    text-transform: uppercase;
 }
 
 .navigation ul {
@@ -38,6 +41,7 @@ body {
 .capa span {
     color: #050A30 ;
     display: block;
+    font-weight: 600;
 }
 
 .capa div {
@@ -51,13 +55,28 @@ body {
 }
 
 .profile-pic img {
-    width: 350px;
-    border-radius: 350px;
+    width: 320px;
+    border-radius: 320px;
     margin-top: 90px;
 }
 
 .profile-title {
     vertical-align:top;
     width: 59%;
+    
+}
+
+.profile-title h1 {
+    font-size: 50px;
     margin-top: 180px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.profile-title h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: -30px;
 }
